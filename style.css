@@ -1,0 +1,114 @@
+body {
+    background-color: #F3F5FC;
+}
+
+.blockOne {
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.textIngresar{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    right: 0px;
+    width: 500px;
+}
+
+.textareaTextIngresar{
+    font-weight: bold;
+    background: #F3F5FC;
+    resize: none;
+    width: 500px;
+    height: 350px;
+    border: none;
+    
+}
+
+.textareaTextIngresar, .textareaTextIngresar::placeholder  {
+    color: #0A3871; 
+}
+
+.textareaTextIngresar, .informativo, .textareaTextSalida {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+}
+
+.informativo{
+    position: relative;
+    top: 75px;
+    left: 150px;
+}
+
+.divButton{
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.buttonGeneral{
+    width: 250px;
+    height: 50px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.buttonEncriptar{
+    margin-right: 25px;
+    color: #F3F5FC;
+    background-color: #0A3871;
+
+}
+
+.buttonDesencriptar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+
+}
+
+
+.textareaTextSalida {
+    resize: none;
+    margin: 40px;
+    width: 420px;   
+    height: 520px; 
+    border: none;
+}
+
+.blockTwo {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+}
+
+.textSalida{
+    background: white;
+    position: relative;
+    top: 20px;
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.imagenSalida {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.buttonEspecial {
+    position: absolute;
+    top: 570px;
+    left: 130px;
+}

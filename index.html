@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challege One</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap"
+            rel="stylesheet">
+
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <div class="blockOne">
+            <div class="logo">
+                <img src="image/Logo.png" alt="Logo de Alura cursos">
+            </div>
+
+            <div class="textIngresar">
+                <textarea class="textareaTextIngresar"
+                    id="textareaTextIngresar" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="informativo">
+                <img style="width: 20px;" src="image/exclamacion.png"
+                    alt="exclamacion">
+                <label for="">Solo letras minúsculas y sin acentos</label>
+            </div>
+
+            <div class="divButton">
+                <input class="buttonGeneral buttonEncriptar" type="button"
+                    value="Encriptar" onclick="clickEncriptacion()">
+                <input class="buttonGeneral buttonDesencriptar" type="button"
+                    value="Desencriptar" onclick="clickDesencriptacion()">
+            </div>
+        </div>
+        <div class="blockTwo">
+            <div class="textSalida">
+                <textarea class="textareaTextSalida" id="textareaTextSalida"></textarea>
+            </div>
+
+            <div id="inforExtras">
+                <img class="imagenSalida" src="image/Salida.png" alt="imagenSalida">
+                <label style="position: absolute; left: 100px; top: 400px; width: 300px; text-align: center; font-size: 1.4em; font-weight: bold;" for="imagenSalida">Ningun mensaje fue encontrado </label>
+                <label style="position: absolute; left: 40px; top: 450px; width: 400px; text-align: center; font-size: 1.4em;" for="imagenSalida"> Ingresa el texto que desea encriptar o desencriptar</label>
+            </div>
+            <div style="display: none;" id="bottonCopiar">
+                <input class="buttonGeneral buttonDesencriptar buttonEspecial" type="button"
+                    value="Copiar" onclick="Copiado()">
+            </div>
+        </div>
+    </body>
+</html>
